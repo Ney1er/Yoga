@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html lang="it">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Yoga</title>
+  <link rel ="icon" type="image/x-icon" href="84145.png">
+  <style>
+    body {
+      margin: 0;
+      background-image: url("yoga-img.jpg");
+      background-size: cover;
+      background-attachment: fixed;
+      font-family: Arial, sans-serif;
+    }
+
+    h1 {
+      text-align: center;
+      font-weight: bolder;
+      color: cadetblue;
+      font-size: xx-large;
+      background-color: darkslategray;
+      background-size: auto;
+      padding:20px;
+      margin: 0;
+    }
+
+    h2{
+      font-size: x-large;
+    }
+
+    p {
+      font-size: large;
+      text-align: center;
+    }
+
+
+    /* Header */
+    header {
+      display: flex;
+      justify-content: space-around;
+      align-items: center;
+      background-color: rgb(177, 190, 185);
+      padding: 20px 30px;
+      font-size: large;
+    }
+
+    header img {
+      width: 30px;
+      height: 35px;
+    }
+
+    nav {
+      display: flex;
+      gap: 50px;
+    }
+
+    .buttone {
+      border: 2px groove rgb(250, 21, 21);
+      border-radius: 20px;
+      padding: 10px 20px;
+      background-color: darkgrey;
+      cursor: pointer;
+      font-weight: bold;
+    }
+
+    /* Sezioni */
+    .section-split {
+      display: flex;
+      height: 70vh;
+    }
+
+    .section-image {
+      flex: 1;
+      background-size: cover;
+      background-position: center;
+      background-repeat: no-repeat;
+      min-height: 360px;
+
+    }
+
+    .section-content {
+      flex: 1;
+      background: rgb(240, 234, 225);
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      padding: 2px;
+    }
+
+    .section-content h1 {
+      margin-bottom: 20px;
+    }
+
+    /* Divisore */
+    .divider {
+      padding: 20px;
+      background-color: darkslategrey;
+      text-align: center;
+      color: white;
+      font-size: 1.2em;
+      font-style: oblique;
+    }
+
+
+    table {
+      font-family: arial, sans-serif;
+      border-collapse: collapse;
+      width: 80%;
+      font-size: large;
+      height: 60%;
+    }
+
+    td,
+    th {
+      border: 2px solid #dddddd;
+      text-align: left;
+      padding: 15px;
+    }
+  </style>
+</head>
+
+<body>
+  <h1>Yoga Equilibrium</h1>
+  <!-- Header -->
+  <header>
+    <div class="logo">
+      <img src="84145.png" alt="Logo Yoga">
+    </div>
+
+    <nav>
+    <a href="#home">Home</a> |
+    <a href="#chisono">Chi sono</a> |
+    <a href="#attivitaorario">Attività e orario</a> |
+    <a href="#contatti">Dove siamo e contatti</a>
+    </nav>
+
+    <div class="buttone">Iscriviti</div>
+  </header>
+
+  <!-- Prima sezione -->
+  <section class="section-split">
+    <div class="section-image" style="background-image: url('yoga pose.jpg');"></div>
+    <div class="section-content">
+     <h2 id="chisono">Chi sono</h2>
+     <p><i>Sono Lana Croft, istruttore di yoga.</i></p>
+     <p><i>Guido le persone a ritrovare equilibrio, forza e presenza attraverso il respiro e il movimento consapevole.</i></p>
+     <p><i>Per me lo yoga non è solo una pratica, ma un modo di vivere: ascoltare, lasciar andare, rinascere</i></p>
+    </div>
+  </section>
+
+  <!-- Divisore -->
+  <div class="divider">
+    Respira, rilassati, ritrova il tuo equilibrio
+  </div>
+
+  <!-- Seconda sezione -->
+  <section class="section-split">
+    <div class="section-content">
+      <h3></h3>
+      <iframe width="560" height="315" src="https://www.youtube.com/embed/3zOWMzKV_gU?si=w_PSHy9NhYE0hjvO" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+    </div>
+    <div class="section-image" style="background-image: url('yoga pose2.jpg');"></div>
+  </section>
+
+  <div class="divider">
+    Un viaggio dentro di te, passo dopo passo
+  </div>
+
+ <section class="section-split">
+  <div class="section-image" style="background-image: url('yoga pose3.jpg');">
+  </div>
+   <div class="section-content">
+    <table id="attivitaorario">
+      <caption style="font-size: x-large; font-weight: bold;">Inspira, esplora</caption>
+      <tr>
+        <th>Giorno</th>
+        <th>Orario</th>
+        <th>Attività</th>
+      </tr>
+      <tr>
+        <td>Lunedì</td>
+        <td>18:00 - 19:00</td>
+        <td>Hatha Yoga</td>
+      </tr>
+      <tr>
+        <td>Martedì</td>
+        <td>18:00 - 19:00</td>
+        <td>Prāṇāyāma & Meditazione</td>
+      </tr>
+      <tr>
+        <td>Mercoledì</td>
+        <td>18:00 - 19:00</td>
+        <td>Vinyasa Flow</td>
+      </tr>
+      <tr>
+        <td>Giovedì</td>
+        <td>18:00 - 19:00</td>
+        <td>Yoga Nidra</td>
+      </tr>
+      <tr>
+        <td>Venerdì</td>
+        <td>18:00 - 19:00</td>
+        <td>Ashtanga Yoga</td>
+      </tr>
+      <tr>
+        <td>Sabato</td>
+        <td>10:00 - 11:00</td>
+        <td>Yin Yoga</td>
+      </tr>
+    </table>
+
+   </div>
+   
+  </section>
+
+  <div class="divider">Il corpo si muove, la mente tace, l'anima ascolta</div>
+    
+
+  <section class="section-content">
+    <h2 id="contatti">contatti</h2>
+    <ul>
+      <li>
+        <a>Instragram</a>
+      </li>
+      <li>
+        <a>Numero</a>
+      </li>
+      <li>
+        <a>Email</a>
+      </li>
+    </ul>
+
+  </section>
+
+</body>
+
+</html>

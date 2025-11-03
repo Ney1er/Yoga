@@ -1,0 +1,84 @@
+body {
+  background-image: url("yoga-img.jpg");
+  margin: 0;
+}
+
+
+
+.header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  font-size: large;
+  width: 100%;
+  background-color: rgb(177, 190, 185);
+  padding: 30px;
+  margin: 0;
+}
+
+.icon {
+  justify-content: center;
+  align-items: center,
+}
+
+.menu {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  gap: 50px;
+}
+
+.subscribe {
+  border: 2px groove rgb(250, 21, 21);
+  border-radius: 20px;
+  padding: 15px;
+  background-color: darkgrey;
+}
+
+.big {
+  display: flex;
+  height: 100vh;
+  width: auto;
+  margin: 0;
+}
+
+#left-1 {
+  flex: 1;
+  background: url('yoga pose.jpg') no-repeat center center;
+  background-size: cover;
+  margin: 0;
+}
+
+#right-1 {
+  flex: 1;
+  background: rgb(240, 234, 225);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: 0;
+}
+
+#left-2 {
+  flex: 1;
+  background: rgb(240, 234, 225);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0;
+}
+
+#right-2 {
+  flex: 1;
+  background: url('yoga pose2.jpg') no-repeat center center;
+  background-size: cover;
+  margin: 0;
+}
+
+.divisor {
+  padding: 15px;
+  background-color: darkslategrey;
+  text-align: center;
+  color: white;
+}
